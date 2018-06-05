@@ -15,7 +15,6 @@
     var borderBox = cardBox.children[1];
     var textBox = borderBox.children[0];
 
-    console.dir(textBox);
     //On click event listener
     submit.addEventListener('click', function (e) {
           //Prevents defailt refresh when button is clicked
@@ -100,7 +99,7 @@
 
     //Changes the text content to the new value
     function changeText () {
-          textBox.textContent = "" + message.value + ""
+          textBox.textContent = "" + message.value + "";
     }
 
 }());
